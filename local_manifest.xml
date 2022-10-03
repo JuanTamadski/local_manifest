@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="yogi" fetch="https://github.com/yograjfire18" />
+	<remote name="yogi" fetch="https://github.com/yograjfire18" /> 
 	<remote name="kernel" fetch="https://github.com/bluehomewu" />
+	<remote name="JuanTamadski" fetch="https://github.com/JuanTamadski" />
           
-    	<project path="device/asus/Z01R" name="android_device_asus_Z01R" remote="yogi" revision="Blaze-12.1" />
+    	<project path="device/asus/Z01R" name="Z01R" remote="JuanTamadski" revision="lineage" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="12" />
     	<project path="kernel/asus/sdm845" name="android_kernel_asus_sdm845" remote="yogi" revision="lineage-19.1" />
 
