@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+        
+        
+<!-- Remotes -->
+        
         <remote name="JuanTamadski" fetch="https://github.com/JuanTamadski" />
         <remote name="yogi" fetch="https://github.com/yograjfire18" />
     	<remote name="kernel" fetch="https://github.com/bluehomewu" />
-    
+        <remote name="edward" fetch="https://github.com/Edward-Projects" />
+
+<!-- Sync trees -->
+        
     	<project path="device/asus/Z01R" name="android_device_asus_Z01R_test" remote="JuanTamadski" revision="pyro" />
     	<project path="vendor/asus" name="vendor_asus" remote="JuanTamadski" revision="13" />
     	<project path="kernel/asus/sdm845" name="android_kernel_asus_sdm845" remote="yogi" revision="lineage-19.1" />
+
+<!-- GCC Clang -->
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="edward" revision="Z01R" />
+        <project path="https://github.com/Edward-Projects/gcc-arm" name="gcc-arm" remote="edward" revision="ZO1R" />
 
 </manifest>
