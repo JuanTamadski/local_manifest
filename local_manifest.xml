@@ -8,6 +8,7 @@
         <remote name="yogi" fetch="https://github.com/yograjfire18" />
     	<remote name="kernel" fetch="https://github.com/bluehomewu" />
         <remote name="edward" fetch="https://github.com/Edward-Projects" />
+        <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 
 <!-- Sync trees -->
         
@@ -15,8 +16,8 @@
     	<project path="vendor/asus" name="vendor_asus" remote="JuanTamadski" revision="13" />
     	<project path="kernel/asus/sdm845" name="android_kernel_asus_sdm845" remote="yogi" revision="lineage-19.1" />
 
-<!-- GCC Clang -->
-        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="edward" revision="Z01R" />
-        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="JuanTamadski" revision="Z01R" />
-
+<!-- Proton Clang -->
+        
+       <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
+        
 </manifest>
