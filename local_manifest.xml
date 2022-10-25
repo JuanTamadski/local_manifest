@@ -17,6 +17,6 @@
 
 <!-- GCC Clang -->
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="edward" revision="Z01R" />
-        <project path="https://github.com/Edward-Projects/gcc-arm" name="gcc-arm" remote="edward" revision="main" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="JuanTamadski" revision="Z01R" />
 
 </manifest>
