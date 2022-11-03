@@ -6,7 +6,7 @@
     
     	<project path="device/asus/Z01R" name="android_device_asus_Z01R_test" remote="JuanTamadski" revision="btl" />
     	<project path="vendor/asus" name="vendor_asus" remote="JuanTamadski" revision="13" />
-    	<project path="kernel/asus/sdm845" name="android_kernel_asus_sdm845" remote="yogi" revision="lineage-19.1" />
+    	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="JuanTamadski" revision="arrow-13.0" />
         
         
         <remove-project name="ArrowOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" />
