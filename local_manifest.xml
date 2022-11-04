@@ -9,10 +9,11 @@
     	<project path="vendor/asus" name="vendor_asus" remote="JuanTamadski" revision="13" />
     	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="JuanTamadski" revision="arrow-13.0" />
         
-        
+       
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="edward" revision="Z01R" />
         <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="edward" revision="Z01R" />
         
+        <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote"JuanTamadski" revision="sambunibo" />
         
         
 
