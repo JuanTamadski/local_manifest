@@ -15,6 +15,6 @@
         
         <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote"JuanTamadski" revision="sambunibo" />
         
-        
+        <remove-project name="device_bootleg_sepolicy"  path="device/bootleg/sepolicy"/>
 
 </manifest>
