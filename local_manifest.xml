@@ -13,7 +13,7 @@
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="edward" revision="Z01R" />
         <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="edward" revision="Z01R" />
         
-        <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote"JuanTamadski" revision="sambunibo" />
+        <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="JuanTamadski" revision="sambunibo" />
         
         <remove-project name="device_bootleg_sepolicy"  path="device/bootleg/sepolicy"/>
 
