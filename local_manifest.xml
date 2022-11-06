@@ -19,7 +19,7 @@
         <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="edward" revision="Z01R" />
         
         
-        <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="JuanTamadski" revision="sambunibo" />
+        <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="JuanTamadski" revision="sambunimbo" />
         
         
 
