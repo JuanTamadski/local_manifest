@@ -5,22 +5,15 @@
     	<remote name="kernel" fetch="https://github.com/bluehomewu" />
         <remote name="edward" fetch="https://github.com/Edward-Projects" />
         
+        #Sources: 
         
-        <remove-project name="device_bootleg_sepolicy"  path="device/bootleg/sepolicy"/>
-        
-        
-    	<project path="device/asus/Z01R" name="android_device_asus_Z01R_test" remote="JuanTamadski" revision="btl" />
+    	<project path="device/asus/Z01R" name="android_device_asus_Z01R_test" remote="JuanTamadski" revision="rice-13" />
     	<project path="vendor/asus" name="vendor_asus" remote="JuanTamadski" revision="13" />
-    	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="JuanTamadski" revision="arrow-13.0" />
-        
-        
-        
+    	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="JuanTamadski" revision="arrow-13.0" 
+                 
+        #GCC:
+                 
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="edward" revision="Z01R" />
         <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="edward" revision="Z01R" />
-        
-        
-        <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="JuanTamadski" revision="sambunimbo" />
-        
-        
 
 </manifest>
