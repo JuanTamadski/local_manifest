@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <remote name="JuanTamadski" fetch="https://github.com/JuanTamadski" />
-        <remote name="yogi" fetch="https://github.com/yograjfire18" />
-    	<remote name="kernel" fetch="https://github.com/bluehomewu" />
+
     
-    	<project path="device/asus/Z01R" name="android_device_asus_Z01R_12" remote="JuanTamadski" revision="spark" />
-    	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="12" />
-    	<project path="kernel/asus/sdm845" name="android_kernel_asus_sdm845" remote="yogi" revision="lineage-19.1" />
+    	<project path="device/oneplus/guacamole" name="android_device_oneplus_guacamole" remote="JuanTamadski" revision="pyro" />
+    	<project path="vendor/oneplus" name="vendor_oneplus_guacamole" remote="JuanTamadski" revision="tiramisu" />
+    	<project path="kernel/oneplus/sm8150" name="kernel_oneplus_sm8150" remote="JuanTamadski" revision="thirteen" />
 
 </manifest>
